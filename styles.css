@@ -1,0 +1,27 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0; font-family: system-ui, sans-serif; background: #f5f7fb; color: #222;
+}
+.container { max-width: 1000px; margin: 0 auto; padding: 24px; }
+.card {
+  background: white; border-radius: 12px; padding: 20px; margin: 18px 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,.06);
+}
+h1 { margin-bottom: 4px; }
+form { display: grid; gap: 12px; }
+label { display: grid; gap: 5px; font-weight: 600; }
+input {
+  padding: 10px; border: 1px solid #ccd3df; border-radius: 8px; font-size: 16px;
+}
+button {
+  border: 0; border-radius: 8px; padding: 10px 16px; cursor: pointer;
+  background: #1a73e8; color: white;
+}
+button.secondary { background: #777; }
+button.danger { background: #c62828; }
+.actions, .toolbar { display: flex; gap: 8px; align-items: center; justify-content: space-between; }
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 10px; border-bottom: 1px solid #e5e7eb; text-align: left; }
+.thumb { width: 60px; height: 60px; object-fit: cover; border-radius: 8px; background: #eee; }
+#status { min-height: 24px; }
