@@ -1,5 +1,5 @@
 // 1) หลัง deploy Google Apps Script แล้ว ให้นำ Web App URL มาใส่ตรงนี้
-const API_URL = "https://script.google.com/macros/s/AKfycbz-J2gANjbgK7zPkwlGtk1RaTde-t-ghNShO-8DK6rJRimG8fMxfEBOEgSiXducenRq/exec";
+const API_URL = "https://script.google.com/macros/s/AKfycbwPpHSY6MmuojxTH1lUMF8xbwVk1kA2hk76UrexFE4FAARnObV22CdCuywzHwU2tTZt/exec";
 
 const form = document.getElementById("studentForm");
 const tableBody = document.getElementById("tableBody");
